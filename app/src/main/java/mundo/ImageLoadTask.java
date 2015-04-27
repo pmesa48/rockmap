@@ -69,6 +69,10 @@ public class ImageLoadTask extends AsyncTask<Void, Void, Bitmap> {
         return null;
     }
 
+    /**
+     * Actividad que se ejecuta al terminar
+     * @param result
+     */
     @Override
     protected void onPostExecute(Bitmap result) {
         super.onPostExecute(result);
