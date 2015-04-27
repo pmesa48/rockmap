@@ -44,6 +44,9 @@ public class MapActivity extends FragmentActivity implements LocationListener {
 
     private GPSHelper gpsHelper;
 
+    /**
+     * Mapa de google
+     */
     private GoogleMap map;
 
     private Button btnBusqueda;
