@@ -65,6 +65,9 @@ public class FragmentGPS extends Fragment implements LocationListener
      */
     private double latitude;
 
+    /**
+     * nueva
+     */
     private double longitude;
 
 
