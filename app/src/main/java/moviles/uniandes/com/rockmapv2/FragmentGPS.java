@@ -60,6 +60,9 @@ public class FragmentGPS extends Fragment implements LocationListener
 
     private Location location;
 
+    /**
+     * Esta es la latitud de la persona
+     */
     private double latitude;
 
     private double longitude;
